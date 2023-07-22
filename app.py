@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import pandas as pd
-from sklearn.externals import joblib
+import joblib
 
 app = Flask(__name__)
 
